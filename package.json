@@ -1,0 +1,36 @@
+{
+  "name": "new3dportfolio",
+  "version": "1.0.0",
+  "description": "mind blowing 3d portfolio ui",
+  "keywords": [
+    "3dportfolio"
+  ],
+  "homepage": "https://github.com/n-rakesh23/3dPorfolioUi#readme",
+  "bugs": {
+    "url": "https://github.com/n-rakesh23/3dPorfolioUi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-rakesh23/3dPorfolioUi.git"
+  },
+  "license": "ISC",
+  "author": "Rakesh Nayak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.2",
+    "gsap": "^3.14.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "styled-components": "^6.1.19",
+    "three": "^0.182.0"
+  }
+}
