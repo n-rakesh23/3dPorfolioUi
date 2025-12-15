@@ -16,9 +16,12 @@
   "license": "ISC",
   "author": "Rakesh Nayak",
   "type": "commonjs",
-  "main": "index.js",
+  
   "scripts": {
-    "test": "jest"
+    "start": "parcel 3d-portfolio/src/index.html --open",
+    "build": "parcel build 3d-portfolio/src/index.html --public-url /3dPorfolioUi/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",

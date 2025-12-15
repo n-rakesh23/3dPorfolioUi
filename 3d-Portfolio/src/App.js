@@ -7,7 +7,9 @@ function App() {
     // Wrap the entire application with a main layout component
     <Layout>
       <HomePage />
+       
     </Layout>
+     
   );
 }
 

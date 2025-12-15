@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       {/* Navbar will go here later */}
       {children}
+     
       {/* Footer will go here later */}
     </div>
   );
